@@ -13,17 +13,17 @@ gulp.task('connect', function () {
 
 gulp.task('browserify', function() {
 	// Grabs the app.js file
-  return browserify('./app/app.js')
+	return browserify('./app/app.js')
 	// bundles it and creates a file called main.js
-  .bundle()
-  .pipe(source('main.js'))
-    // saves it the public/js/ directory
-    .pipe(gulp.dest('./public/js/'));
-  });
+	.bundle()
+	.pipe(source('main.js'))
+	// saves it the public/js/ directory
+	.pipe(gulp.dest('./public/js/'));
+});
 
 gulp.task('sass', function() {
 	return sass('scss/style.scss')
-  .pipe(gulp.dest('public/css'));
+	.pipe(gulp.dest('public/css'));
 });
 
 gulp.task('watch', function() {
