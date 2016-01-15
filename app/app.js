@@ -5,4 +5,4 @@ angular.module('app', []);
 
 angular
   .module('app')
-  .controller('MainController', ['$scope', MainController]);
+  .controller('MainController', MainController);
