@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Omar Fouad <me@omarfouad.com> (http://omarfouad.com/)",
+  "author": "Alex Chin <alex@alexchin.co.uk> (http://www.alexchin.co.uk/)",
   "license": "ISC",
   "devDependencies": {
     "browserify": "^9.0.3",
